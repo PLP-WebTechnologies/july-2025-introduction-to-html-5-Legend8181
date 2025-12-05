@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple, accessible, and SEO-friendly HTML5 webpage demonstrating semantic structure and best practices.">
+    <title>HTML5 Accessibility & SEO Demo</title>
+</head>
+<body>
+
+    <header>
+        <h1>HTML5 Accessibility & SEO Basics</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#accessibility">Accessibility</a></li>
+                <li><a href="#seo">SEO Principles</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <section id="introduction">
+                <h2>Introduction</h2>
+                <p>This webpage demonstrates proper use of HTML5 semantic elements, accessibility best practices, and beginner-friendly SEO techniques. It is designed to be readable by both humans and search engines.</p>
+            </section>
+
+            <section id="accessibility">
+                <h2>Accessibility Essentials</h2>
+                <p>Accessibility ensures that people of all abilities can navigate and understand your website. HTML5 provides semantic tags that act as landmarks for assistive technologies such as screen readers.</p>
+                <h3>Key Accessibility Practices</h3>
+                <ul>
+                    <li>Use semantic elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;nav&gt;</code>, and <code>&lt;footer&gt;</code>.</li>
+                    <li>Include <code>aria-label</code> attributes where additional clarity is helpful.</li>
+                    <li>Ensure headings follow a logical order to support easy navigation.</li>
+                </ul>
+            </section>
+
+            <section id="seo">
+                <h2>Basic SEO Principles</h2>
+                <p>SEO, or Search Engine Optimization, helps search engines understand your content. Proper structure improves discoverability and ranking.</p>
+                <h3>On-Page SEO Techniques</h3>
+                <ul>
+                    <li>Use meaningful headings and maintain a proper hierarchy.</li>
+                    <li>Provide a clear meta description for your page.</li>
+                    <li>Write content that is both readable and keyword-friendly without keyword stuffing.</li>
+                </ul>
+            </section>
+
+            <section id="conclusion">
+                <h2>Conclusion</h2>
+                <p>By using semantic HTML5 tags and applying accessibility and SEO best practices, you create a webpage that is user-friendly and search-engine friendly. This foundation will help you build more advanced web projects in the future.</p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Web Development Basics</p>
+    </footer>
+
+</body>
+</html>
